@@ -1,0 +1,81 @@
+ body{
+    background-color:#1C1C1C;
+}
+
+.nav-img {
+width: 100%;
+height: 200px;
+overflow: hidden; 
+}
+
+.nav-img img {
+width: 100%;
+height: 100%;
+object-fit: cover; 
+}
+.line-below {
+width: 100%; 
+height: 3px;
+background-color: #B28228; 
+margin: 10px 0;
+      }
+      .image-container {
+position: relative;
+width: 100%; 
+height: 200px; 
+overflow: hidden;
+}
+
+.image-container img {
+width: 100%;
+height: 100%;
+object-fit: cover; 
+}
+
+.overlay-text {
+position: absolute;
+top: 40%;
+left: 50%; 
+transform: translate(-50%, -50%); 
+
+border-radius: 10px;
+font-family:Apple Chancery, cursive;
+text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+color: #B28228; 
+text-align: center;
+font-size: 3rem; 
+}
+.cal-lay{
+background-color: #fff;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+width: 400px;
+}
+.btn-d button{
+
+background-color: #B28228;
+color: #1C1C1C;
+font-family: Apple Chancery, cursive;
+height: 30px;
+box-shadow: 0 4px 8px rgba(222, 222, 222, 0.228);
+width: fit-content;
+border: none;
+border-radius: 5px;
+text-shadow: 2px 2px 4px rgba(255, 252, 252, 0.3); 
+transition: all 0.3s ease;
+}
+.btn-d button:hover{
+cursor: pointer;
+font-size: small;
+color:white ;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.658); 
+transition: all 0.3s ease;
+}
+.btn-d{
+margin-top: 20px;
+display: grid;
+grid-column: 1;
+place-items: center;
+gap: 15px;
+}
